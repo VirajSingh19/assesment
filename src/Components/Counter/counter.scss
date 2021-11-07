@@ -1,0 +1,79 @@
+.counter_wrapper {
+    padding: 5rem 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .loading {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: calc(50% - 8rem);
+
+        .text {
+            margin-left: 1rem;
+        }
+    }
+
+    .counter {
+        // width: 14rem;
+        display: flex;
+        align-items: center;
+        border: 2px solid indianred;
+
+        border-radius: 0.75rem;
+        overflow: hidden;
+        height: 5rem;
+        width: 15rem;
+        outline: none;        
+
+
+        .count {
+            background-color: rgb(254, 241, 241);
+            width: 5rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input {
+                background-color: rgb(254, 241, 241);
+                color: indianred;
+                width: 5rem;
+                font-size: xx-large;
+                appearance: none;
+                outline: none;
+                border: none;
+                font-weight: bolder;
+            }
+        }
+
+        .increment,
+        .decrement {
+            width: 5rem;
+            height: 100%;
+            border: none;
+            appearance: none;
+            font-size: 2.5rem;
+            font-weight: bold;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .decrement {
+            background: white;
+            color: indianred;
+        }
+
+        .increment {
+            color: white;
+            background: indianred;
+            outline: none;
+
+        }
+    }
+}
