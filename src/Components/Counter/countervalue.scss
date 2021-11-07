@@ -1,0 +1,14 @@
+.counter-value {
+    margin-top: 1rem;
+    border: 1px dashed gray;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    .label {
+       
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+}

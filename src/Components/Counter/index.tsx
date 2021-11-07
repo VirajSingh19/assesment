@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import axios, { AxiosResponse } from 'axios';
 import './counter.scss'
 import Loader from '../Loader';
+import ConterValue from './CounterValue';
 
 interface CounterInterface {
     virajsingh: number
@@ -102,6 +103,8 @@ const Counter: React.FC = () => {
             <button className="increment" onClick={() => syncCount(count + 1)}> + </button>
 
         </div>
+
+        <ConterValue counter={count} />
     </div>
 }
 

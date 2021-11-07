@@ -26,3 +26,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.border-dashed {
+  border: 2px dashed;
+}
+
+.font-bold {
+  font-weight: bold;
+}
